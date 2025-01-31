@@ -6,7 +6,7 @@ This is a simple Express API built with TypeScript that provides email, GitHub U
 
 1. Clone the repository:
 
-   git clone https://github.com/abdul-codes/hngstage0task
+   git clone https://github.com/abdul-codes/stage0task
    cd your-repo
   
 
