@@ -14,7 +14,7 @@ app.get("/info", async(req: Request, res: Response) => {
     datetime: new Date().toISOString(),
   };
 
-  res.json(response);
+  res.status(200).json(response);
 });
 
 app.listen(PORT, () => {
