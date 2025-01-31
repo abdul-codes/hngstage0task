@@ -3,7 +3,7 @@ import "dotenv/config";
 import cors from "cors";
 
 const app = express();
-app.use(cors());
+app.use(cors({origin: "*"}));
 const PORT = process.env.PORT || 3000;
 
 app.get("/info", async(req: Request, res: Response) => {
