@@ -4,6 +4,7 @@ import cors from "cors";
 
 const app = express();
 app.use(cors({origin: "*"}));
+app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 app.get("/info", async(req: Request, res: Response) => {
