@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.get("/info", async(req: Request, res: Response) => {
   const response = {
     email: "abdulsalamakinsanya2@gmail.com",
-    github_url: "https://github.com/your-github",
+    github_url: "https://github.com/abdul-codes/hngstage0task",
     datetime: new Date().toISOString(),
   };
 
